@@ -1,324 +1,92 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
-
-  <meta charset="UTF-8">
-
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Camille Unger | Stupid Movie</title>
-
   <style>
-
     body {
-
       background-color: #111;
-
       color: #e0e0e0;
-
       font-family: monospace;
-
       margin: 0;
-
       padding: 0;
-
-      background-image: url('');
-
+      background-image: url('images/background.png'); /* replace with actual background later */
       background-size: cover;
-
       background-attachment: fixed;
-
     }
 
     nav {
-
       display: flex;
-
       justify-content: center;
-
       gap: 2rem;
-
       padding: 1rem;
-
       background: rgba(0, 0, 0, 0.6);
-
     }
 
     nav a {
-
       color: #ff99cc;
-
       text-decoration: none;
-
       font-weight: bold;
-
-      font-family: monospace;
-
     }
 
     .container {
-
       max-width: 800px;
-
       margin: 4rem auto;
-
       background: rgba(0, 0, 0, 0.7);
-
       padding: 2rem;
-
       border: 1px dashed #ff99cc;
-
-      font-family: monospace;
-
     }
 
     .header {
-
       text-align: center;
-
       font-size: 2.5rem;
-
       margin-bottom: 2rem;
-
     }
 
     .bio {
-
       font-style: italic;
-
       margin-bottom: 2rem;
-
     }
 
     .exit {
-
       text-align: center;
-
       margin-top: 4rem;
-
       font-size: 1.2rem;
-
       cursor: pointer;
-
       color: #ccc;
-
     }
 
     .exit:hover {
-
       color: #fff;
-
     }
 
     .poem, .art {
-
       margin-top: 3rem;
-
       padding-top: 1rem;
-
       border-top: 1px dashed #666;
-
     }
 
     img.art-img {
-
       width: 100%;
-
       max-width: 700px;
-
       display: block;
-
       margin: 1rem auto;
-
       border: 1px solid #444;
-
     }
-
   </style>
-
 </head>
-
 <body>
 
   <nav>
-
     <a href="#poems">poems</a>
-
     <a href="#doodles">doodles</a>
-
-    <a href="#thoughts">thoughts</a>
-
     <a href="#bio">bio</a>
-
     <a class="exit" onclick="document.body.innerHTML = '<h1 style=\'text-align:center; margin-top: 30vh; color: white; font-family: monospace;\'>goodbye</h1>'">exit</a>
-
   </nav>
 
   <div class="container">
-
     <div class="header">stupid movie</div>
 
     <div id="bio" class="bio">
-
-      Camille Unger occasionally writes poetry and draws when their head allows it. They’re currently studying electrical engineering after briefly attempting philosophy grad school and realizing that thinking without seminar rooms was already pretty alright. Their work touches on bugs, guts and rage—probably. They're not great at summaries. They live somewhere between markers, words, Laplace transforms, and nicotine withdrawal.
-
-    </div>
-
-
-
-    <div id="poems" class="poem">
-
-      <h2>you are tall</h2>
-
-      <p>
-
-      <b>You are tall.<br></b>
-
-        <p>
-
-        <i>Me?<br></i>
-
-        <p>
-
-        <b>Yes, you.<br></b>
-
-        <p>
-
-        <i>No, I am not.<br></i>
-
-        <p>
-
-        <b>No?<br></b>
-
-        <p>
-
-        <i>No, I am not.<br>
-
-        I am not tall at all.<br>
-
-        I am very very small.<br></i>
-
-        <p>
-
-        <b>How so?<br></b>
-
-        <p>
-
-        <i>Can’t you tell?<br>
-
-        Can’t you see?<br>
-
-        It’s in my eyes. Look! Look closely...<br>
-
-        <p>
-
-        I am smaller than the twinkle<br>
-
-        in a roach’s eye.<br>
-
-        <p>
-
-        I am smaller than a speck of dust,<br>
-
-        on the back of a fly.<br>
-
-        <p>
-
-        I could float through air<br>
-
-        and never catch<br>
-
-        a strand of light<br>
-
-        <p>
-
-        I could drift between brick—<br>
-
-        not collide with a particle—<br>
-
-        <p>
-
-        yet, inaudible, shyly say,<br>
-
-        <p>
-
-        “Sorry! Please! Excuse me!”<br><br></i>
-
-        <p>
-
-        <p>
-
-        <b>But...<br>
-
-        <p>
-
-        though you say<br>
-
-        you are so small.<br>
-
-        <p>
-
-        <i>I see you.<br></i>
-
-        <p>
-
-        And <i>you</i> are <i>dear</i> to me.<br>
-
-        <p>
-
-        <i>Dearer</i> than you know.<br>
-
-        <p>
-
-        A <i>million deer</i> would have <i>no chance</i><br>
-
-        at overwhelming<br>
-
-        <p>
-
-        <i>your dearness to me,</i><br>
-
-        little one.</b>
-
-      </p>
-
-    </div>
-
-
-
-<a href="emotionalshrimp.html">emotional shrimp (new tab)</a>
-
-
-
-<div id="doodles" class="art">
-
-  <h2>doodles</h2>
-
-  <img class="art1" src="images/art1.jpg" alt="likes your socks">
-
-  <img class="art2" src="images/art2.jpg" alt="want to steal them">
-
-</div>
-
-
-
-
-
-    <!-- the silence is intentional -->
-
-    <!-- this is where mitski would play if the world were just -->
-
-  </div>
-
-</body>
-
-</html>
-
-
-
-
-
-
-
+      Camille Unger occasionally writes poetry and draws when their head allows it. They’re currently studying electrical engineering after briefly attempting philosophy grad school and realizing that thinking without seminar rooms was already pretty alright. Their work touches on bugs, guts and rage—probably. They're not great at summaries. They live somewhere between markers, words, Laplace
