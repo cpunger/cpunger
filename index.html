@@ -108,7 +108,13 @@
     <a href="#bio">bio</a>
     <a href="#poems">poems</a>
     <a href="#doodles">doodles</a>
-    <a class="exit" onclick="document.body.innerHTML = '<h1 style=\'text-align:center; margin-top: 30vh; color: white; font-family: monospace;\'>goodbye</h1>'">exit</a>
+    <a class="exit" onclick="document.body.innerHTML = `
+      <div style='text-align:center; margin-top: 25vh; font-family: monospace; color: white;'>
+        <h1>goodbye</h1>
+        <img src='images/cryptid-wave.jpg' alt='a cryptid waving sadly' style='margin-top: 2rem; max-width: 300px; width: 80%; height: auto; border-radius: 8px;' />
+      </div>
+    `">exit</a>
+
   </nav>
 
   <div class="container">
