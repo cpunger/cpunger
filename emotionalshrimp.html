@@ -81,6 +81,30 @@
         transform: translateX(120vw) scaleX(1);
         opacity: 0.2;
       }
+      
+      .floating-shrimp {
+        position: fixed;
+        bottom: 20%;
+        left: -100px;
+        width: 100px;
+        z-index: 120;
+        opacity: 0.8;
+        animation: floatShrimp 20s linear infinite;
+        pointer-events: none;
+      }
+    
+    @keyframes floatShrimp {
+      0% {
+        transform: translateX(0) scaleX(1);
+        opacity: 0.2;
+      }
+      50% {
+        opacity: 1;
+      }
+      100% {
+        transform: translateX(120vw) scaleX(1);
+        opacity: 0.2;
+      }
 }
 
 
@@ -179,6 +203,7 @@ you never really know
 exactly what to do with.” 
 </p>
   
+  <img src="images/shrimp.png" alt="floaty shrimp" class="floating-shrimp" />
   <img src="images/fish.png" alt="floaty fish friend" class="floating-fish" />
   
   <a class="back" href="index.html">← back to the stupid movie</a><p></p>
