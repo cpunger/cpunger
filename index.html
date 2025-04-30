@@ -19,18 +19,32 @@
       background-repeat: repeat;
     }
 
+    title {
+      display: flex; 
+      gap: 1rem; 
+      padding: 1rem; 
+      background: rgba(0, 0, 0, 0.6);
+      justify-content: flex-start
+    }
+    
+    title a {
+      color: #bbbbbb;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
     nav {
       display: flex;
       gap: 2rem;
       padding: 1rem;
       background: rgba(0, 0, 0, 0.6);
+      justify-content: center;
     }
 
     nav a {
       color: #14844a;
       text-decoration: none;
       font-weight: bold;
-      justify-content: center;
     }
 
     .container {
@@ -95,10 +109,9 @@
   
 </head>
 <body>
+  <title><a>Camille Unger | Leftovers</a></title>
   <nav>
-    <b>Camille Unger | Leftovers</b> 
-    
-    <center><a href="poems.html">poems</a>
+    <a href="poems.html">poems</a>
     <a href="lines.html">drawings</a>
     <a href="stupidphotos.html">pics</a>
     <a href="WIP.html">WIP</a>
@@ -108,7 +121,7 @@
         <h1>goodbye</h1>
         <img src='images/larrydavid.jpg' alt='bye bye' style='margin-top: 2rem; max-width: 200px; width: 80%; height: auto; border-radius: 8px;' />
       </div>
-    `">exit</a></center>
+    `">exit</a>
   </nav>
 
   <div class="container">
